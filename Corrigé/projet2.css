@@ -1,0 +1,447 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+     width: 100%;
+     background-color: #F9F9F9;
+     overflow-x: hidden;
+}
+header{
+    background-color: white;
+}
+.topbar{
+    
+    border: 1px solid #a9a9a9;
+    border-style: groove;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;   
+    text-align: start; 
+    letter-spacing: normal;
+    font-size: 13px;
+    line-height: 44px;   
+}
+.icone {
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.facebook,.insta,.youtube{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2.5%;
+    margin-top: 5%;
+    border-left: 1px solid #a9a9a9;
+    border-right:1px solid #a9a9a9 ;    
+}
+.menu-item{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;  
+    
+}
+
+.menu-item a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #199BAB;
+}
+.menu-item a:hover{
+    color: black;
+}
+
+.header2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    margin-top: 1%;
+   
+}
+.menu-nav{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    list-style-type: none;   
+}
+.menu-nav a{
+    text-decoration: none;
+    margin-top: 2rem;
+    color:#121212;
+    display: flex;   
+    justify-content: space-between; 
+    padding: 0 20px;
+    width: 100%;
+}
+.svg{
+    width: 20px;
+    margin-top: 1.5rem;
+}
+.background{
+    background-image: url(image/presso.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hook{
+    text-align: left;
+    margin-right: 30%;
+    font-size: 1rem;
+    padding: 13%;
+}
+h1{
+    font-size: 54px;
+    margin-right: 20%;
+    text-align: left;  
+}
+
+.bon1{
+    padding: 5%;
+    list-style-type: none;
+    margin-top: 5%;
+}
+.bon1 a{
+    text-decoration: none;
+    color: #000;
+    border: solid;
+    border-style: groove;
+    padding: 10px;
+    font-weight: bold;
+}
+.bon1 :hover{
+    background-color: #000;
+    color :white;
+}
+.background2{
+    background-color: #EEC6C7;
+    padding: 5%;        
+}
+.background2 h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.text{
+    display: flex;
+    align-items: center;
+    float: left;
+    flex-direction: column; 
+}
+.bon2{
+    margin-left: 50%;
+    list-style-type:none;
+    line-height: 3;
+    margin-right: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.bon2 a{
+    text-decoration: none;
+    background-color: #121212;
+    color: white;
+    padding: 15px 15px;     
+}
+.bon3{
+    margin-left: 50%;
+    list-style-type:none;
+    line-height: 3;
+    margin-right: 90px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    padding: 15px 15px;
+}
+.bon3 a{
+    text-decoration: none;
+    color: white;
+    background-color: #121212;
+    padding: 15px 15px;   
+}
+.text2 p{
+    text-align: center;
+    margin-bottom: 4%;
+}
+h2{
+    font-size: 41.4px;
+    text-align: center;
+    font-style: normal;
+    text-transform: lowercase;
+}
+.block1,.block2{
+   display: flex;
+   gap: 30px;
+   width: 100%;
+   justify-content: center;
+   line-height: 2;
+}
+.block1 a,.block2 a{
+    text-decoration: none;
+    color: #686868;
+}
+.block1 a:hover,.block2 a:hover{
+    color:#F7A196;
+}
+h6{
+    line-height: normal;
+    font-size: large;
+    margin-bottom: 2%;
+    color:#303030;
+    margin-left: 5%;
+    font-weight: lighter;
+
+}
+.epilation,.visage,.mains{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: #686868;
+   margin-bottom: 5%;
+    background-color: #FFFFFF;  
+}
+
+.corps,.pulsee,.regard{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color:#686868 ;
+   background-color:#FFFFFF ;  
+}
+p{
+    text-align: center;
+    font-size: 27.9;
+    margin-left: 15%;
+}
+.container{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    color:#888888;
+    background-color:#F7F7F7;
+    background-position: 100%;
+    height: 25rem;   
+}
+h3{
+    font-size: 3rem;
+    color: #199BAB;
+   text-align: center;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 5%;
+}
+.container p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.block3{
+    display: flex;
+    width: 100%;
+    height: 40rem;   
+}
+h4{
+    color: #F7A196;
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 0%;
+    text-align: left;
+   
+}
+.concept{
+    display: flex;
+   width: 50%;
+   flex-direction: column;
+   margin-right: 5%;
+   line-height: 2rem;
+   font-size: 18.5px;
+   margin-left: 12%;
+   color:#606060 ;  
+   margin-top: 3%;
+}
+.concept p{
+    margin-bottom: 5%;
+    text-align: left;
+}
+.concept1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #F7A196;
+   padding: 1rem;
+   font-size: 20px;
+   text-align: center; 
+   border-radius: 3px; 
+}
+.concept1 a:hover{
+    background-color: #199BAB;
+    
+}
+.institut{
+    width: 50%;
+    text-align: end;
+    text-decoration: none;
+    margin-right: 15%;
+    text-align: left;
+    
+}
+.image{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.RV a{
+    color: white;
+    text-decoration: none;
+    padding: 3%;
+    border: solid;
+    background-color:#199BAB;
+    font-size: 1.3rem; 
+    border-radius: 3px;
+    
+    
+    
+}
+.block4{
+    display: flex;
+    background-color: #199BAB;
+    justify-content: space-between;
+    width: 100%;
+    height: 40rem;
+    line-height: 2;
+    font-size: 18.5px;
+    text-align: justify;
+}
+.video{
+    width: 30%;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.recrutement{
+    display: flex;
+    color: white;
+    align-items: start;
+    width: 50%;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.recrutement a{
+    text-decoration: none;
+    color: #000;
+    border: inherit;
+    background-color: white;
+    padding: 1.5%;
+    margin-left: 10%;
+    margin-top: 3%;
+    border-radius: 3%;
+}
+.recrutement a:hover{
+    opacity: 0.8;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer-main{
+    background:#1b1b1b;
+    color: white;
+    bottom: 0;
+    padding: 5px 10px 10px 10px;
+    display: flex;
+}
+.section1{
+    margin-left: 10%;
+    width: 60%;
+}
+.logo_footer{
+    display: flex;
+    width: 227px;
+    height: 144px;
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.section2,.section3,.section4{
+    width: 25%;
+    flex-direction: column;
+    width: 60%;
+   text-align: left;
+}
+
+h5{
+    color: white;  
+   text-align: center;
+    font-size: 18px;
+}
+.posts{
+    list-style-type: none;
+}
+.posts a{
+    text-align: justify;
+    width: 60%;
+    margin-left: 5%;
+    line-height: 2.5rem;
+    text-decoration: underline;
+    color: #a9a9a9;
+}
+.posts a:hover{
+    color: white;
+}
+.textwidget{
+    list-style-type: none;
+}
+.textwidget a{
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    line-height: 2.5rem;
+    text-decoration: underline;
+    color: #a9a9a9;
+}
+.textwidget a:hover{
+    color: white;
+}
+p{
+    text-align: left;
+    margin-left: 5%;  
+}
+.widget-social-icone {
+    display: flex;
+    margin-left: 35%;
+    
+    
+}
+.footer-bottom{
+   background-color: #151515;
+   display: flex;
+}
+
+.partie1{
+   font-size: 13px;
+   color: #777;
+   margin-left: 20%;
+   margin-bottom: 1.5%;
+   margin-top: 1.5%;
+}
+.partie2 {
+    display: flex;
+    font-size: 10px;
+    margin-left: 50%;
+    letter-spacing: 1px; 
+    margin-top: 1%;   
+}
